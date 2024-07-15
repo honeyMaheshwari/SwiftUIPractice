@@ -42,7 +42,9 @@ struct ContentView: View {
         }
         */
         
-        LoginView()
+//        LoginView()
+        
+        LandmarksListView()
         
     }
 
