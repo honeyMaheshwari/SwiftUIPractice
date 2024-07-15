@@ -9,6 +9,7 @@ import Foundation
 
 enum JSONFileName: String {
     case landmarks
+    case iplTeams
 }
 
 struct JSONFileDecoder {

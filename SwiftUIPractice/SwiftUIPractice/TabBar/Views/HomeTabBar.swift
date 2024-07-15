@@ -27,10 +27,10 @@ struct HomeTabBar: View {
                 }
                 .tag(1)
             
-            SearchView()
+            IPLTeamView()
                 .tabItem {
-                    Text("Search")
-                    Image(systemName: "magnifyingglass")
+                    Text("IPL Teams")
+                    Image(systemName: "person.3")
                 }
                 .tag(2)
             

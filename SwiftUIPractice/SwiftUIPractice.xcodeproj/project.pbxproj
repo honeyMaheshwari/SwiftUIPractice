@@ -25,11 +25,15 @@
 		20C1B3372C451224009D62EC /* HMNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3362C451224009D62EC /* HMNavigationView.swift */; };
 		20C1B3392C451353009D62EC /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3382C451353009D62EC /* LandmarkDetailView.swift */; };
 		20C1B33C2C4519B2009D62EC /* HomeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B33B2C4519B2009D62EC /* HomeTabBar.swift */; };
-		20C1B33F2C451A0F009D62EC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B33E2C451A0F009D62EC /* SearchView.swift */; };
 		20C1B3412C451A20009D62EC /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3402C451A20009D62EC /* NotesView.swift */; };
 		20C1B3432C451A32009D62EC /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3422C451A32009D62EC /* MessagesView.swift */; };
 		20C1B3452C451A42009D62EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3442C451A42009D62EC /* HomeView.swift */; };
 		20C1B3472C451E57009D62EC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3462C451E57009D62EC /* SettingsView.swift */; };
+		20C1B34C2C4522A4009D62EC /* iplTeams.json in Resources */ = {isa = PBXBuildFile; fileRef = 20C1B34B2C4522A4009D62EC /* iplTeams.json */; };
+		20C1B34F2C4527A9009D62EC /* IPLTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B34E2C4527A9009D62EC /* IPLTeam.swift */; };
+		20C1B3532C4528C4009D62EC /* IPLTeamView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3522C4528C4009D62EC /* IPLTeamView.swift */; };
+		20C1B3552C452968009D62EC /* IPLTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3542C452968009D62EC /* IPLTeamCell.swift */; };
+		20C1B3572C4530FF009D62EC /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3562C4530FF009D62EC /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,11 +75,15 @@
 		20C1B3362C451224009D62EC /* HMNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNavigationView.swift; sourceTree = "<group>"; };
 		20C1B3382C451353009D62EC /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
 		20C1B33B2C4519B2009D62EC /* HomeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBar.swift; sourceTree = "<group>"; };
-		20C1B33E2C451A0F009D62EC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
 		20C1B3402C451A20009D62EC /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
 		20C1B3422C451A32009D62EC /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
 		20C1B3442C451A42009D62EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		20C1B3462C451E57009D62EC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		20C1B34B2C4522A4009D62EC /* iplTeams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = iplTeams.json; sourceTree = "<group>"; };
+		20C1B34E2C4527A9009D62EC /* IPLTeam.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPLTeam.swift; sourceTree = "<group>"; };
+		20C1B3522C4528C4009D62EC /* IPLTeamView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPLTeamView.swift; sourceTree = "<group>"; };
+		20C1B3542C452968009D62EC /* IPLTeamCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPLTeamCell.swift; sourceTree = "<group>"; };
+		20C1B3562C4530FF009D62EC /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -214,6 +222,7 @@
 			children = (
 				20C1B32B2C4505E3009D62EC /* JSONFileDecoder.swift */,
 				20C1B3362C451224009D62EC /* HMNavigationView.swift */,
+				20C1B3562C4530FF009D62EC /* SearchBarView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -239,7 +248,6 @@
 			isa = PBXGroup;
 			children = (
 				20C1B33B2C4519B2009D62EC /* HomeTabBar.swift */,
-				20C1B33E2C451A0F009D62EC /* SearchView.swift */,
 				20C1B3402C451A20009D62EC /* NotesView.swift */,
 				20C1B3422C451A32009D62EC /* MessagesView.swift */,
 				20C1B3442C451A42009D62EC /* HomeView.swift */,
@@ -251,6 +259,8 @@
 		20C1B3482C452235009D62EC /* IPLTeam */ = {
 			isa = PBXGroup;
 			children = (
+				20C1B34D2C45239D009D62EC /* Model */,
+				20C1B34A2C452297009D62EC /* Resources */,
 				20C1B3492C452241009D62EC /* Views */,
 			);
 			path = IPLTeam;
@@ -259,8 +269,26 @@
 		20C1B3492C452241009D62EC /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				20C1B3522C4528C4009D62EC /* IPLTeamView.swift */,
+				20C1B3542C452968009D62EC /* IPLTeamCell.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		20C1B34A2C452297009D62EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				20C1B34B2C4522A4009D62EC /* iplTeams.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		20C1B34D2C45239D009D62EC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				20C1B34E2C4527A9009D62EC /* IPLTeam.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -367,6 +395,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C1B34C2C4522A4009D62EC /* iplTeams.json in Resources */,
 				20555ACF2C4132F0008D9393 /* Preview Assets.xcassets in Resources */,
 				20C1B3292C4505B1009D62EC /* landmarks.json in Resources */,
 				20555ACC2C4132F0008D9393 /* Assets.xcassets in Resources */,
@@ -394,6 +423,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C1B3572C4530FF009D62EC /* SearchBarView.swift in Sources */,
 				20C1B3412C451A20009D62EC /* NotesView.swift in Sources */,
 				20C1B3312C450976009D62EC /* Landmark.swift in Sources */,
 				20C1B3392C451353009D62EC /* LandmarkDetailView.swift in Sources */,
@@ -402,13 +432,15 @@
 				20C1B3472C451E57009D62EC /* SettingsView.swift in Sources */,
 				20C1B3432C451A32009D62EC /* MessagesView.swift in Sources */,
 				20555AC82C4132EE008D9393 /* ContentView.swift in Sources */,
+				20C1B34F2C4527A9009D62EC /* IPLTeam.swift in Sources */,
 				20555ACA2C4132EE008D9393 /* Item.swift in Sources */,
+				20C1B3552C452968009D62EC /* IPLTeamCell.swift in Sources */,
 				20C1B32F2C450967009D62EC /* City.swift in Sources */,
 				20555AF22C413B82008D9393 /* LoginView.swift in Sources */,
-				20C1B33F2C451A0F009D62EC /* SearchView.swift in Sources */,
 				20C1B33C2C4519B2009D62EC /* HomeTabBar.swift in Sources */,
 				20C1B32C2C4505E3009D62EC /* JSONFileDecoder.swift in Sources */,
 				20C1B3452C451A42009D62EC /* HomeView.swift in Sources */,
+				20C1B3532C4528C4009D62EC /* IPLTeamView.swift in Sources */,
 				20555AC62C4132EE008D9393 /* SwiftUIPracticeApp.swift in Sources */,
 				20C1B3332C450C9C009D62EC /* LandmarksListView.swift in Sources */,
 			);
