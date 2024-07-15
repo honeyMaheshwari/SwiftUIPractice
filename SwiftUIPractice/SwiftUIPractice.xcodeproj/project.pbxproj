@@ -24,6 +24,12 @@
 		20C1B3352C450FFA009D62EC /* LandmarkCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3342C450FFA009D62EC /* LandmarkCell.swift */; };
 		20C1B3372C451224009D62EC /* HMNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3362C451224009D62EC /* HMNavigationView.swift */; };
 		20C1B3392C451353009D62EC /* LandmarkDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3382C451353009D62EC /* LandmarkDetailView.swift */; };
+		20C1B33C2C4519B2009D62EC /* HomeTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B33B2C4519B2009D62EC /* HomeTabBar.swift */; };
+		20C1B33F2C451A0F009D62EC /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B33E2C451A0F009D62EC /* SearchView.swift */; };
+		20C1B3412C451A20009D62EC /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3402C451A20009D62EC /* NotesView.swift */; };
+		20C1B3432C451A32009D62EC /* MessagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3422C451A32009D62EC /* MessagesView.swift */; };
+		20C1B3452C451A42009D62EC /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3442C451A42009D62EC /* HomeView.swift */; };
+		20C1B3472C451E57009D62EC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20C1B3462C451E57009D62EC /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +70,12 @@
 		20C1B3342C450FFA009D62EC /* LandmarkCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkCell.swift; sourceTree = "<group>"; };
 		20C1B3362C451224009D62EC /* HMNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HMNavigationView.swift; sourceTree = "<group>"; };
 		20C1B3382C451353009D62EC /* LandmarkDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetailView.swift; sourceTree = "<group>"; };
+		20C1B33B2C4519B2009D62EC /* HomeTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTabBar.swift; sourceTree = "<group>"; };
+		20C1B33E2C451A0F009D62EC /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		20C1B3402C451A20009D62EC /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		20C1B3422C451A32009D62EC /* MessagesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessagesView.swift; sourceTree = "<group>"; };
+		20C1B3442C451A42009D62EC /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		20C1B3462C451E57009D62EC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +126,11 @@
 		20555AC42C4132EE008D9393 /* SwiftUIPractice */ = {
 			isa = PBXGroup;
 			children = (
+				20C1B32A2C4505C0009D62EC /* Helpers */,
 				20555AC52C4132EE008D9393 /* SwiftUIPracticeApp.swift */,
 				20555AC72C4132EE008D9393 /* ContentView.swift */,
-				20C1B32A2C4505C0009D62EC /* Helpers */,
+				20C1B3482C452235009D62EC /* IPLTeam */,
+				20C1B33A2C45194C009D62EC /* TabBar */,
 				20C1B3252C44EE8A009D62EC /* Landmarks */,
 				20555AF32C413C1F008D9393 /* Login */,
 				20555AC92C4132EE008D9393 /* Item.swift */,
@@ -211,6 +225,42 @@
 				20C1B3302C450976009D62EC /* Landmark.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		20C1B33A2C45194C009D62EC /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				20C1B33D2C4519E3009D62EC /* Views */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		20C1B33D2C4519E3009D62EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				20C1B33B2C4519B2009D62EC /* HomeTabBar.swift */,
+				20C1B33E2C451A0F009D62EC /* SearchView.swift */,
+				20C1B3402C451A20009D62EC /* NotesView.swift */,
+				20C1B3422C451A32009D62EC /* MessagesView.swift */,
+				20C1B3442C451A42009D62EC /* HomeView.swift */,
+				20C1B3462C451E57009D62EC /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		20C1B3482C452235009D62EC /* IPLTeam */ = {
+			isa = PBXGroup;
+			children = (
+				20C1B3492C452241009D62EC /* Views */,
+			);
+			path = IPLTeam;
+			sourceTree = "<group>";
+		};
+		20C1B3492C452241009D62EC /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -344,15 +394,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				20C1B3412C451A20009D62EC /* NotesView.swift in Sources */,
 				20C1B3312C450976009D62EC /* Landmark.swift in Sources */,
 				20C1B3392C451353009D62EC /* LandmarkDetailView.swift in Sources */,
 				20C1B3372C451224009D62EC /* HMNavigationView.swift in Sources */,
 				20C1B3352C450FFA009D62EC /* LandmarkCell.swift in Sources */,
+				20C1B3472C451E57009D62EC /* SettingsView.swift in Sources */,
+				20C1B3432C451A32009D62EC /* MessagesView.swift in Sources */,
 				20555AC82C4132EE008D9393 /* ContentView.swift in Sources */,
 				20555ACA2C4132EE008D9393 /* Item.swift in Sources */,
 				20C1B32F2C450967009D62EC /* City.swift in Sources */,
 				20555AF22C413B82008D9393 /* LoginView.swift in Sources */,
+				20C1B33F2C451A0F009D62EC /* SearchView.swift in Sources */,
+				20C1B33C2C4519B2009D62EC /* HomeTabBar.swift in Sources */,
 				20C1B32C2C4505E3009D62EC /* JSONFileDecoder.swift in Sources */,
+				20C1B3452C451A42009D62EC /* HomeView.swift in Sources */,
 				20555AC62C4132EE008D9393 /* SwiftUIPracticeApp.swift in Sources */,
 				20C1B3332C450C9C009D62EC /* LandmarksListView.swift in Sources */,
 			);

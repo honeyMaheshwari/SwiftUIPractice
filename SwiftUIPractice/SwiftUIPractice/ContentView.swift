@@ -44,7 +44,7 @@ struct ContentView: View {
         
 //        LoginView()
         
-        LandmarksListView()
+        HomeTabBar()
         
     }
 
