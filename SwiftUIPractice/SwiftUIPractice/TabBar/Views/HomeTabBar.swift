@@ -34,26 +34,33 @@ struct HomeTabBar: View {
                 }
                 .tag(2)
             
+            SelectImageView()
+                .tabItem {
+                    Text("Selecte Image")
+                    Image(systemName: "photo.on.rectangle.angled")
+                }
+                .tag(3)
+            
             MessagesView()
                 .tabItem {
                     Text("Message")
                     Image(systemName: "message")
                 }
-                .tag(3)
+                .tag(4)
             
             NotesView()
                 .tabItem {
                     Text("Notes")
                     Image(systemName: "pencil")
                 }
-                .tag(4)
+                .tag(5)
             
             SettingsView()
                 .tabItem {
                     Text("Settings")
                     Image(systemName: "gearshape")
                 }
-                .tag(5)
+                .tag(6)
         }
         .tint(.red)
     }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		203C29A82C46358B007CD597 /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203C29A72C46358B007CD597 /* ImagePickerView.swift */; };
+		203C29AC2C463BC9007CD597 /* SelectImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203C29AB2C463BC9007CD597 /* SelectImageView.swift */; };
+		203C29AE2C464774007CD597 /* ShareSheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 203C29AD2C464774007CD597 /* ShareSheetView.swift */; };
 		20555AC62C4132EE008D9393 /* SwiftUIPracticeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20555AC52C4132EE008D9393 /* SwiftUIPracticeApp.swift */; };
 		20555AC82C4132EE008D9393 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20555AC72C4132EE008D9393 /* ContentView.swift */; };
 		20555ACA2C4132EE008D9393 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20555AC92C4132EE008D9393 /* Item.swift */; };
@@ -54,6 +57,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		203C29A72C46358B007CD597 /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		203C29AB2C463BC9007CD597 /* SelectImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageView.swift; sourceTree = "<group>"; };
+		203C29AD2C464774007CD597 /* ShareSheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetView.swift; sourceTree = "<group>"; };
 		20555AC22C4132EE008D9393 /* SwiftUIPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20555AC52C4132EE008D9393 /* SwiftUIPracticeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPracticeApp.swift; sourceTree = "<group>"; };
 		20555AC72C4132EE008D9393 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -111,6 +117,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		203C29A92C463BA3007CD597 /* SelectImage */ = {
+			isa = PBXGroup;
+			children = (
+				203C29AA2C463BB9007CD597 /* Views */,
+			);
+			path = SelectImage;
+			sourceTree = "<group>";
+		};
+		203C29AA2C463BB9007CD597 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				203C29AB2C463BC9007CD597 /* SelectImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		20555AB92C4132EE008D9393 = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +159,7 @@
 				20C1B32A2C4505C0009D62EC /* Helpers */,
 				20555AC52C4132EE008D9393 /* SwiftUIPracticeApp.swift */,
 				20555AC72C4132EE008D9393 /* ContentView.swift */,
+				203C29A92C463BA3007CD597 /* SelectImage */,
 				20C1B3482C452235009D62EC /* IPLTeam */,
 				20C1B33A2C45194C009D62EC /* TabBar */,
 				20C1B3252C44EE8A009D62EC /* Landmarks */,
@@ -223,6 +246,8 @@
 				20C1B32B2C4505E3009D62EC /* JSONFileDecoder.swift */,
 				20C1B3362C451224009D62EC /* HMNavigationView.swift */,
 				20C1B3562C4530FF009D62EC /* SearchBarView.swift */,
+				203C29A72C46358B007CD597 /* ImagePickerView.swift */,
+				203C29AD2C464774007CD597 /* ShareSheetView.swift */,
 			);
 			path = Helpers;
 			sourceTree = "<group>";
@@ -425,8 +450,11 @@
 			files = (
 				20C1B3572C4530FF009D62EC /* SearchBarView.swift in Sources */,
 				20C1B3412C451A20009D62EC /* NotesView.swift in Sources */,
+				203C29AE2C464774007CD597 /* ShareSheetView.swift in Sources */,
 				20C1B3312C450976009D62EC /* Landmark.swift in Sources */,
 				20C1B3392C451353009D62EC /* LandmarkDetailView.swift in Sources */,
+				203C29AC2C463BC9007CD597 /* SelectImageView.swift in Sources */,
+				203C29A82C46358B007CD597 /* ImagePickerView.swift in Sources */,
 				20C1B3372C451224009D62EC /* HMNavigationView.swift in Sources */,
 				20C1B3352C450FFA009D62EC /* LandmarkCell.swift in Sources */,
 				20C1B3472C451E57009D62EC /* SettingsView.swift in Sources */,
@@ -609,6 +637,8 @@
 				DEVELOPMENT_TEAM = 64FXJ5AP7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Permission to use photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -638,6 +668,8 @@
 				DEVELOPMENT_TEAM = 64FXJ5AP7L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "Permission to use camera";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Permission to use photo library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
